@@ -1,0 +1,17 @@
+Badanie wydajnosci rdtsc
+
+Mnozenie maciezy kwadratowych [N][N] 
+
+Napisac funkcje ktora mnozy 2 tablice, mierzymy czas, sprawdzamy perfem jak dziala itp, i bedziemy chcieli jak zoptymalizowac
+
+Pierwsza optymalizacja to nieiterowanie po pierwszym wymiarze, przy mnozeniu tablic. mozna to osiagnac poprzez transponowanie macierzy,
+
+Druga optymalizacja to rozwiniecie petli o np podzielnosc N,
+
+trzecia optymalizacja to przetwarzanie blokowe (tail link czy jakos tak), czyli rozwijanie petli nadrzednych 
+
+analiza 8 mozliwosci, oraz rozmiaru N (dwie mozliwosci duza i mala tablica), uzywac perfa 
+
+dla chetnych zastanowic sie w ktorych przypadkach sie to zrownoleglic (odpalic w kilku watkach)
+
+sprawdzic wplyw przelacznikow optymalizacji w kompilatorze, zrobic optymalizacje kodu w kompilacji?  , uzyc 2 kompilatorow np gcc i clang
